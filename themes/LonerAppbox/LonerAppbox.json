@@ -1,0 +1,123 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "AppBox" : {
+        "userInteraction" : "YES",
+        "scale" : "0",
+        "borderColor" : "rgba(95, 101, 111, 1.00)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "375",
+          "height" : "375"
+        },
+        "backgroundColor" : "rgba(33, 32, 32, 1.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "3",
+        "alpha" : "1",
+        "children" : {
+          "label" : {
+            "blurColor" : "dark2",
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "375",
+              "height" : "20"
+            },
+            "backgroundColor" : "rgba(94, 101, 112, 1.00)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "controlers" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "-21",
+                  "x" : "6",
+                  "width" : "50",
+                  "height" : "50"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "animation" : "none",
+                "cornerRadius" : "0",
+                "imageURL" : "IMG_2756_adobe_express.png",
+                "type" : "UIImageView",
+                "actions" : "none"
+              },
+              "applabel" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "-11",
+                  "x" : "center",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "fontColorAttr" : "none",
+                "numberOfLines" : "1",
+                "data" : "Apps",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "fontSize" : "10",
+                "fontName" : "Helvetica",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none"
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "childorder" : "controlers,applabel",
+            "cornerRadius" : "0",
+            "userInteraction" : "YES"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "childorder" : "label",
+        "blurColor" : "dark",
+        "cornerRadius" : "10"
+      }
+    }
+  }
+}
