@@ -9,7 +9,7 @@
       "height" : "screen_height"
     },
     "children" : {
-      "LonerDock" : {
+      "LessRoundedDock" : {
         "boxShadow" : {
           "y" : "3",
           "color" : "rgba(0,0,0,0)",
