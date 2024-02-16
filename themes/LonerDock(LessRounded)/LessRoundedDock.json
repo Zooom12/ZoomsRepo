@@ -1,0 +1,99 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "LessRoundedDock" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "frame" : {
+          "y" : "810",
+          "x" : "center",
+          "width" : "400",
+          "height" : "103"
+        },
+        "hideWhenPlaying" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(33, 32, 32, 1.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "label" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "400",
+              "height" : "25"
+            },
+            "hideWhenPlaying" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(94, 101, 112, 1.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "dots" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "-46",
+                  "x" : "20",
+                  "width" : "80",
+                  "height" : "100"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "animation" : "none",
+                "cornerRadius" : "0",
+                "imageURL" : "IMG_2756_adobe_express.png",
+                "type" : "UIImageView",
+                "actions" : "none",
+                "imageFolder" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "dots",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "animation" : "none",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "10",
+        "type" : "UIView",
+        "childorder" : "label",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
